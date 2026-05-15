@@ -16,10 +16,10 @@
         <!-- Header -->
         <BoxContainer Orientation="Vertical">
             <BoxContainer Orientation="Horizontal" Margin="5">
-                <Button Name="JASHome" Access="Public" Text="Exit"/>
+                <Button Name="JASHomeButton" Access="Public" Text="Exit"/>
                 <Label Name="OverwatchLabel" Access="Public" Text="Incident Report" />
                 <Control HorizontalExpand="True" />
-                <Button Name="JASExport" Access="Public" Text="Export"
+                <Button Name="JASExportButton" Access="Public" Text="Export"
                         StyleClasses="ActionButton" />
             </BoxContainer>
         </BoxContainer>
@@ -106,8 +106,11 @@
                                         BackgroundColor="#1A1A1A" />
                                 </PanelContainer.PanelOverride>
                                 <BoxContainer Orientation="Vertical" VerticalExpand="True">
-                                    <TextEdit/>
+                                    <!-- Text input -->
+
                                     <Label Text="Details view"/>
+
+                                    <!-- End Text input -->
                                 </BoxContainer>
                             </PanelContainer>
                         </BoxContainer>
