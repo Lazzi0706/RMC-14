@@ -1,0 +1,29 @@
+- type: entity
+  parent: CMBaseStructure
+  id: RMCJas
+  name: Jurisdictional Automated System
+  description: A powerful machine produced by Weyland-Yutani to streamline all punishment of prisoners. The best grade policing gear seen on this side of the galaxy.
+  components:
+  - type: ActivatableUI
+    key: enum.JurisdictionalASUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.JurisdictionalASUiKey.Key:
+        type: JurisdictionalASBui
+  - type: InteractedBlacklist
+    blacklist:
+      components:
+      - Xeno
+  - type: Transform
+    anchored: false
+  - type: Physics
+    bodyType: Static
+    canCollide: false
+  - type: Sprite
+    drawdepth: SmallObjects
+    sprite: _RMC14/Structures/Machines/computer.rsi
+    state: jas
+  - type: Clickable
+  - type: Corrodible
+    isCorrodible: false
+  - type: InteractionOutline
