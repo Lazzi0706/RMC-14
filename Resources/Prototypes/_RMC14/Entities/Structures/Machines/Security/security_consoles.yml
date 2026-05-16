@@ -10,6 +10,12 @@
     interfaces:
       enum.JurisdictionalASUiKey.Key:
         type: JurisdictionalASBui
+  - type: ItemSlots
+  - type: ContainerContainer
+    containers:
+      PrivilegedIdSlot: !type:ContainerSlot
+      SuspectIdSlot: !type:ContainerSlot
+      WitnessIdSlot: !type:ContainerSlot
   - type: InteractedBlacklist
     blacklist:
       components:

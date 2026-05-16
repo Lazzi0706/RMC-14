@@ -7,3 +7,12 @@ public enum JurisdictionalASUiKey
 {
     Key,
 }
+
+[Serializable, NetSerializable]
+public sealed class JurisdictionalASInsertedSuspectIdBuiMsg : BoundUserInterfaceMessage;
+
+[Serializable, NetSerializable]
+public sealed class JurisdictionalASInsertedPrivilegedIdBuiMsg : BoundUserInterfaceMessage;
+
+[Serializable, NetSerializable]
+public sealed class JurisdictionalASInsertedWitnessIdBuiMsg : BoundUserInterfaceMessage;
