@@ -17,7 +17,7 @@
         <BoxContainer Orientation="Vertical">
             <BoxContainer Orientation="Horizontal" Margin="5">
                 <Button Name="JASHomeButton" Access="Public" Text="Exit"/>
-                <Label Name="OverwatchLabel" Access="Public" Text="Incident Report" />
+                <Label Name="JASLabel" Access="Public" Text="Incident Report" />
                 <Control HorizontalExpand="True" />
                 <Button Name="JASExportButton" Access="Public" Text="Export"
                         StyleClasses="ActionButton" />
